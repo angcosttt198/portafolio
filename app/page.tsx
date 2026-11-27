@@ -63,20 +63,20 @@ const experiences = [
   {
     number: "01",
     title: "Experiencia académica",
-    description: "",
-    date: "[Fecha o período]",
+    description: "Desarrollo de página web en Expo Técnica del Instituto Técnico Emiliani",
+    date: "[Año 2024]",
   },
   {
     number: "02",
     title: "Proyectos colaborativos",
-    description: "[Describe tu participación y responsabilidades]",
-    date: "[Fecha o período]",
+    description: "[Desarrollo de página web en Expo de Logros del Centro !Supérate! Fundacion Frech. Encargado de presentar la APP delante de invitados especiales y desarrollo de pitch y material visual]",
+    date: "[Agosto-Septiembre de 2025]",
   },
   {
     number: "03",
     title: "Actividades complementarias",
-    description: "[Prácticas, voluntariados o actividades extracurriculares]",
-    date: "[Fecha o período]",
+    description: "Visita a Casa de Adultos Mayores, realización de actividades recreativas con personas de la tercer edaad",
+    date: "[Octubre de 2025]",
   },
 ];
 
@@ -84,23 +84,23 @@ const education = [
   {
     number: "01",
     title: "Estudios actuales",
-    institution: "[Institución educativa]",
-    detail: "[Nivel académico o carrera]",
-    date: "[Período de estudios]",
+    institution: "Instituto Técnico Emiliani",
+    detail: "Bachillerato General",
+    date: "Año 2024-2025",
   },
   {
     number: "02",
     title: "Cursos y certificaciones",
-    institution: "[Nombre del curso o certificación]",
-    detail: "[Institución que lo otorgó]",
-    date: "[Fecha de obtención]",
+    institution: "Curso de Idioma Inglés en programa de la Universidad de El Salvador, Certificación MOS Excel, Certificación MOS Expert Excel y Certifiaciones TOEIC l/r and S/W",
+    detail: "[Universidad de El Salvador, ¡Supérate! con apoyo de Microsoft y ETS Global]",
+    date: "[2024, 2025 y 2026]",
   },
   {
     number: "03",
     title: "Reconocimientos",
-    institution: "[Reconocimiento académico]",
-    detail: "[Institución o entidad]",
-    date: "[Fecha]",
+    institution: "Diploma por mejor promedio en 9no Grado",
+    detail: "Instituto Técnico Emiliani",
+    date: "2023",
   },
 ];
 
