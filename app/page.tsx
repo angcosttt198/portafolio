@@ -296,6 +296,7 @@ export default function Home() {
     className="h-full w-full object-cover object-center"
   />
 
+
 </div>
 
         <a
@@ -313,15 +314,16 @@ export default function Home() {
         className="scroll-mt-20 bg-[#fff9e9] px-6 py-24 dark:bg-[#111d30] sm:px-10 lg:px-[10%]"
       >
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
-          <div className="flex h-[350px] items-center justify-center rounded-3xl border-2 border-dashed border-[#f48b5e] bg-[#faf0ca] shadow-xl dark:bg-[#0b1220]">
-            <div className="text-center">
-              <p className="text-2xl font-extrabold">IMAGEN</p>
-              <p className="mt-2 text-sm opacity-60">
-                Personaliza esta sección
-              </p>
-            </div>
+          {/* IMAGEN ABOUT */}
+          <div className="h-[350px] overflow-hidden rounded-3xl border-2 border-[#f48b5e] shadow-xl">
+            <img
+              src="/images/FOTO.jpeg"
+              alt="Fotografía de About"
+              className="h-full w-full object-cover object-center"
+            />
           </div>
 
+          {/* TEXTO ABOUT */}
           <div>
             <h2 className="mb-8 text-4xl font-extrabold sm:text-5xl">
               Sobre <span className={accent}>mí</span>
@@ -331,23 +333,28 @@ export default function Home() {
               <div>
                 <h3 className="mb-2 text-xl font-bold">¿Quién soy?</h3>
                 <p className="text-sm leading-8 opacity-80 sm:text-base">
-                  [Escribe una presentación sobre ti, tus estudios e
-                  intereses.]
+                  [Mi nombre es Angel Acosta. Me gusta mucho el Inglés y soy 
+                  bastante apasionado a la música y a la enseñanza. Me gusta mucho
+                  aprender cosas nuevas.]
                 </p>
               </div>
 
               <div>
                 <h3 className="mb-2 text-xl font-bold">Mis objetivos</h3>
                 <p className="text-sm leading-8 opacity-80 sm:text-base">
-                  [Describe tus objetivos personales, académicos y
-                  profesionales.]
+                  [Uno de mis objetivos personales es poder vivir en paz mi vida, poder 
+                  ayudar a mis papás y poder tener mi propio hogar. En cuanto a mis objetivos
+                  académicos, quiero graduarme de mi carrera con reconocimientos y poder tener la oportundiad de
+                  estudiar afuera si es posible. En cuanto a mis objetivos profesionales, quiero poder trabajar
+                  en un colegio con buen prestigio e impartir clases de inglés y poder ayudar a mis alumnos a aprender el idioma y poder tener un buen salario.]
                 </p>
               </div>
 
               <div>
                 <h3 className="mb-2 text-xl font-bold">Mis fortalezas</h3>
                 <p className="text-sm leading-8 opacity-80 sm:text-base">
-                  [Menciona tus fortalezas y capacidades personales.]
+                  [Mis fortalezas son que soy una persona muy observadora, me gusta mucho aprender cosas nuevas y me gusta mucho ayudar a los demás. Soy una persona muy responsable y comprometida con mis objetivos. 
+                  Y también soy una persona muy creativa y me gusta mucho la música. Y por último soy una persona muy competitiva.]
                 </p>
               </div>
             </div>
