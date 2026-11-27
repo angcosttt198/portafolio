@@ -16,14 +16,14 @@ const navigation = [
 
 const projects = [
   {
-    name: "Nombre del proyecto",
-    description: "[Descripción del proyecto]",
-    problem: "[Problema que busca resolver]",
-    objective: "[Objetivo de la actividad]",
-    technologies: "[Tecnologías utilizadas]",
-    solution: "[Explicación de la solución implementada]",
-    results: "[Resultados obtenidos]",
-    image: "",
+    name: "FinanSmart",
+    description: "App para jovenes adultos primerizos con su conocimiento financiero y en tarjetas de credito y debito.",
+    problem: "[Busca resolver la falta de educación financiera en jóvenes adultos y evitar ignorancia al momento de tomar una tarjeta de debito o credito.]",
+    objective: "Resolver la falta de educación financiera en jóvenes adultos y evitar ignorancia al momento de decidir entre una tarjeta de debito o credito.",
+    technologies: "Power Apps, Power Automate Y SharePoint",
+    solution: "Se implementó una aplicación móvil que proporciona información y recursos educativos sobre finanzas personales, incluyendo comparaciones de tarjetas de crédito y débito, consejos de ahorro y gestión de presupuesto.]",
+    results: "Aprender a manejar powerAPPS",
+    image: "src/images/finansmart.png",
     repository: "",
   },
   {
@@ -48,10 +48,44 @@ const projects = [
     image: "",
     repository: "",
   },
+
+  {
+  name: "Proyecto 04",
+  image: "",
+  description: "Descripción del proyecto 4.",
+  problem: "Problema que busca resolver.",
+  objective: "Objetivo principal.",
+  technologies: "HTML, CSS, JavaScript.",
+  solution: "Solución desarrollada.",
+  results: "Resultados obtenidos.",
+  repository: "",
+},
+{
+  name: "Proyecto 05",
+  image: "",
+  description: "Descripción del proyecto 5.",
+  problem: "Problema que busca resolver.",
+  objective: "Objetivo principal.",
+  technologies: "React, Tailwind CSS.",
+  solution: "Solución desarrollada.",
+  results: "Resultados obtenidos.",
+  repository: "",
+},
+{
+  name: "Proyecto 06",
+  image: "",
+  description: "Descripción del proyecto 6.",
+  problem: "Problema que busca resolver.",
+  objective: "Objetivo principal.",
+  technologies: "PHP, MySQL, JavaScript.",
+  solution: "Solución desarrollada.",
+  results: "Resultados obtenidos.",
+  repository: "",
+},
 ];
 
 const skillCategories = [
-  "HTML, JS Y CSS",
+  "Lenguajes de Programación:HTML, JS Y CSS",
   "Creacion de pagina web Ingenia, pagina que buscaba ayudar a los albañiles a conseguir más empleos",
   "Bases de datos: MySQL para la creación de una base de datos para la pagina web Ingenia",
  "Habilidades Personales: Creatividad, trabajo en equipo, liderazgo, comunicación efectiva y resolución de problemas",
@@ -421,21 +455,22 @@ export default function Home() {
               className="group relative h-80 overflow-hidden rounded-3xl bg-[#faf0ca] shadow-xl dark:bg-[#0b1220]"
             >
               {project.image ? (
-                <img
-                  src={project.image}
-                  alt={`Imagen del proyecto ${index + 1}`}
-                  className="h-full w-full object-cover"
-                />
-              ) : (
-                <div className="flex h-full flex-col items-center justify-center gap-3 border-2 border-dashed border-[#f48b5e]/60">
-                  <span className="text-3xl font-extrabold text-[#f48b5e]">
-                    PROYECTO {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <span className="text-sm opacity-60">
-                    Imagen o captura del proyecto
-                  </span>
-                </div>
-              )}
+  <img
+    src={project.image}
+    alt={`Imagen del proyecto ${index + 1}`}
+    className="h-full w-full object-cover"
+  />
+) : (
+  <div className="flex h-full flex-col items-center justify-center gap-3 border-2 border-dashed border-[#f48b5e]/60">
+    <span className="text-3xl font-extrabold text-[#f48b5e]">
+      PROYECTO {String(index + 1).padStart(2, "0")}
+    </span>
+    <span className="text-sm opacity-60">
+      Imagen o captura del proyecto
+    </span>
+  </div>
+)}
+              
 
               <div className="absolute inset-0 flex translate-y-full flex-col items-center justify-center bg-gradient-to-b from-[#0d3b66]/95 to-[#f48b5e]/95 p-7 text-center text-white transition duration-500 group-hover:translate-y-0 group-focus-within:translate-y-0">
                 <h3 className="mb-4 text-2xl font-extrabold">
