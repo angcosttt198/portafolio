@@ -23,7 +23,7 @@ const projects = [
     technologies: "Power Apps, Power Automate Y SharePoint",
     solution: "Se implementó una aplicación móvil que proporciona información y recursos educativos sobre finanzas personales, incluyendo comparaciones de tarjetas de crédito y débito, consejos de ahorro y gestión de presupuesto.]",
     results: "Aprender a manejar powerAPPS",
-    image: "src/images/finansmart.png",
+    image: "src/images/FinanSmart.png",
     repository: "",
   },
   {
