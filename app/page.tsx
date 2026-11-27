@@ -557,7 +557,7 @@ export default function Home() {
               </span>
               <h3 className="mb-4 mt-5 text-lg font-bold">{category}</h3>
               <p className="text-sm leading-7 opacity-75">
-                [Añade aquí las habilidades que realmente conoces.]
+              
               </p>
             </article>
           ))}
@@ -612,20 +612,20 @@ export default function Home() {
               {
                 icon: "✉",
                 title: "Correo electrónico",
-                detail: "[Tu dirección de correo]",
+                detail: "angeelcostaa22@gmail.com",
                 link: "",
               },
               {
                 icon: "⌘",
                 title: "GitHub",
-                detail: "[Tu perfil de GitHub]",
-                link: "",
+                detail: "angcosttt198",
+                link: "https://github.com/angcosttt198",
               },
               {
                 icon: "in",
                 title: "LinkedIn",
-                detail: "[Tu perfil profesional, si tienes]",
-                link: "",
+                detail: "Angel Acosta",
+                link: "https://www.linkedin.com/in/angel-acosta-4a96b1452/",
               },
             ].map((item) => (
               <article
