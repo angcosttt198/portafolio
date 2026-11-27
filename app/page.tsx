@@ -51,12 +51,10 @@ const projects = [
 ];
 
 const skillCategories = [
-  "Lenguajes de programación",
-  "Desarrollo web",
-  "Bases de datos",
-  "Herramientas tecnológicas",
-  "Inteligencia artificial y Machine Learning",
-  "Habilidades personales",
+  "HTML, JS Y CSS",
+  "Creacion de pagina web Ingenia, pagina que buscaba ayudar a los albañiles a conseguir más empleos",
+  "Bases de datos: MySQL para la creación de una base de datos para la pagina web Ingenia",
+ "Habilidades Personales: Creatividad, trabajo en equipo, liderazgo, comunicación efectiva y resolución de problemas",
 ];
 
 const experiences = [
