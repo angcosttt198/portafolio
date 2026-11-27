@@ -63,7 +63,7 @@ const experiences = [
   {
     number: "01",
     title: "Experiencia académica",
-    description: "[Describe una experiencia académica relevante]",
+    description: "",
     date: "[Fecha o período]",
   },
   {
@@ -215,12 +215,14 @@ export default function Home() {
           </h1>
 
           <h2 className="mb-5 text-2xl font-bold sm:text-3xl">
-            <span className={accent}>[Nombre completo]</span>
+            <span className={accent}>[Angel Eduardo 
+              Acosta Escamilla]</span>
           </h2>
 
           <p className="max-w-xl text-base leading-8 opacity-80 sm:text-lg">
-            [Escribe aquí una breve presentación personal, tu carrera o
-            especialidad y tu objetivo profesional.]
+            [Mi nombre es Angel Acosta, soy estudiante de Licenciatura en Idiomas con Especialidad
+            en Adquisicón de Lenguas extranjeras y me apasiona el Inglés y la enseñanza y busco ser una 
+            maestro de inglés]
           </p>
 
           <div className="my-8 flex gap-4">
@@ -285,16 +287,16 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ESPACIO PARA FOTO */}
-        <div className="relative z-10 mt-12 hidden h-[380px] w-[280px] shrink-0 items-center justify-center rounded-t-[150px] rounded-b-3xl border-4 border-[#f48b5e] bg-[#fff9e9] shadow-2xl dark:bg-[#17243a] lg:absolute lg:bottom-0 lg:right-[8%] lg:flex">
-          <div className="flex flex-col items-center gap-3 text-center">
-            <span className="text-lg font-extrabold">FOTOGRAFÍA</span>
-            <span className="text-lg font-extrabold">PROFESIONAL</span>
-            <span className="text-xs opacity-60">
-              Coloca tu imagen aquí
-            </span>
-          </div>
-        </div>
+      {/* ESPACIO PARA FOTO */}
+<div className="relative z-10 mt-12 hidden h-[380px] w-[280px] shrink-0 items-center justify-center overflow-hidden rounded-t-[150px] rounded-b-3xl border-4 border-[#f48b5e] bg-[#fff9e9] shadow-2xl dark:bg-[#17243a] lg:absolute lg:bottom-0 lg:right-[8%] lg:flex">
+
+  <img
+    src="/images/FOTO.jpeg"
+    alt="Fotografía profesional"
+    className="h-full w-full object-cover object-center"
+  />
+
+</div>
 
         <a
           href="#about"
